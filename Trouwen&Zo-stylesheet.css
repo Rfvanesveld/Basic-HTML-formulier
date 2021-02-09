@@ -1,0 +1,96 @@
+header {
+    margin: 5px;}
+
+img.Omslagfoto {
+    display: flex;
+    width: 1200px;
+    margin: auto;
+    max-height: 400px;}
+
+body {
+    color: black; 
+    font-family: inherit;
+    margin-bottom: 5px;}
+
+ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 1px;
+    overflow: hidden;
+    background-color:#333;
+    color:white}
+
+.kop1 {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding-left: 10px ;}
+
+.kop2 {
+    text-decoration: none;
+    color: white;
+    padding-left: 25px;}
+    
+li {
+    float:right;
+    font-size: 20px;}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+    
+li :hover, .dropdown :hover .dropbtn {
+    color:#13aff0}
+
+li.dropdown {
+    display: inline-block;}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: fit;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;}
+
+.dropdown-content a{
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;}
+
+.dropdown-content a:hover {
+    color: #13aff0;}
+
+.dropdown:hover .dropdown-content {
+    display: block;}
+
+    .gallery {
+        box-sizing: border-box;
+        display: flex;
+        padding: 15px;
+        justify-content: center;
+        margin: auto;}
+   
+   .image:hover {
+        border: 1px solid #777;}
+   
+   .image {
+        padding: 10px;
+        margin: 5px 10px 5px 15px;
+        width: 400px;}
+   
+   .desc {
+        font-size: 16px;
+        padding: 5px;
+        text-align: center;}
+ 
+.Bottom {
+    padding-top: 15px;
+    clear: left;}
+
+
